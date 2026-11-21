@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Send Campus Cafe a message, ask about catering or book a table for your group.">
+  <title>Campus Cafe | Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Campus Cafe</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section aria-labelledby="page-title">
+      <span class="eyebrow">We love to hear from you</span>
+      <h1 id="page-title">Contact us</h1>
+      <p class="section-intro">Have a question, a suggestion or a group booking in mind? Fill in the form and the Campus Cafe team will reply as soon as we can.</p>
+    </section>
+
+    <div class="contact-layout">
+      <section aria-labelledby="form-title">
+        <h2 id="form-title">Send us a message</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="field">
+            <label for="full-name">Full name <span class="required-mark" aria-hidden="true">*</span></label>
+            <input type="text" id="full-name" name="full_name" placeholder="Juan Dela Cruz" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="email-address">Email address <span class="required-mark" aria-hidden="true">*</span></label>
+            <input type="email" id="email-address" name="email" placeholder="juan@example.com" autocomplete="email" required>
+          </div>
+
+          <div class="field">
+            <label for="topic">What is your message about?</label>
+            <select id="topic" name="topic">
+              <option value="general">General question</option>
+              <option value="menu">Menu or allergies</option>
+              <option value="booking">Group table booking</option>
+              <option value="catering">Event catering</option>
+              <option value="feedback">Feedback or suggestion</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell us how we can help"></textarea>
+          </div>
+
+          <p class="form-note">Fields marked with * are required.</p>
+
+          <button type="submit">Send message</button>
+        </form>
+      </section>
+
+      <aside class="info-panel" aria-labelledby="visit-title">
+        <h2 id="visit-title">Visit the cafe</h2>
+        <ul>
+          <li>Ground floor, Student Center Building</li>
+          <li>Monday to Friday: 6:30 AM to 7:00 PM</li>
+          <li>Saturday: 8:00 AM to 4:00 PM</li>
+          <li>Sunday: Closed</li>
+        </ul>
+        <p>Looking for something to eat first? Check out the <a href="menu.html">menu</a> or read <a href="about.html">our story</a>.</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Campus Cafe. Original student project for IT 101 by Kyan Asher B. Arevalo.</p>
+    <p><a href="index.html">Back to home</a> &middot; <a href="about.html">About the team</a></p>
+  </footer>
+</body>
+</html>
