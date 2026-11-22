@@ -15,10 +15,11 @@ FILES
 - Cafe.mp3                      Audio used on the About page
 
 MEMBERS, ROLES AND WHO CODED WHAT
-Member 1: Kyan Asher B. Arevalo - Group leader - index.html and css/style.css, menu.html, about.html, contact.html and README.txt
-Member 2: ____________________ - ____________ - 
-Member 3: ____________________ - ____________ - 
-Member 4: ____________________ - ____________ - 
+Member 1: Kyan Asher Arevalo - Group leader - index.html and css/style.css,
+Member 2: Steven Kalel Jocona - Member - menu.html
+Member 3: Ralph Gabriel Ramos- Member - about.html
+Member 4: Janine Marie Plaza - Member - contact.html
+Member 5: Jenica Loterte - Member -README.txt
 
 DEMO ROLES (each member speaks at least 30 seconds)
 Member 1: Project overview, CSS variables and Flexbox/Grid
